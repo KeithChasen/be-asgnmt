@@ -7,4 +7,13 @@ export interface IDeveloper {
 
 	email: string
 
+	revenue?: number
+
+}
+
+export interface IContract {
+	id: number
+	developerId: string
+	status: string
+	amount: number
 }
